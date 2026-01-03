@@ -1,0 +1,22 @@
+﻿模型,参数,准确率,精确率,召回率,F1分数,训练时间(s),参数组合
+朴素贝叶斯,alpha=0.01,0.9913,0.9848,0.998,0.9914,0.004,alpha=0.01
+朴素贝叶斯,alpha=0.1,0.992,0.9874,0.9967,0.992,0.002,alpha=0.1
+朴素贝叶斯,alpha=0.5,0.9887,0.9854,0.992,0.9887,0.003,alpha=0.5
+朴素贝叶斯,alpha=1.0,0.9877,0.9854,0.99,0.9877,0.003,alpha=1.0
+朴素贝叶斯,alpha=2.0,0.986,0.984,0.988,0.986,0.003,alpha=2.0
+朴素贝叶斯,alpha=5.0,0.984,0.984,0.984,0.984,0.004,alpha=5.0
+朴素贝叶斯,alpha=10.0,0.9806,0.9826,0.9786,0.9806,0.003,alpha=10.0
+SVM,"C=0.01, kernel=linear",0.7901,0.7043,1,0.8265,7.004,"C=0.01, kernel=linear"
+SVM,"C=0.1, kernel=linear",0.9756,0.9553,0.998,0.9762,3.255,"C=0.1, kernel=linear"
+SVM,"C=1, kernel=linear",0.9903,0.9874,0.9933,0.9903,1.784,"C=1, kernel=linear"
+SVM,"C=10, kernel=linear",0.9903,0.9874,0.9933,0.9903,1.69,"C=10, kernel=linear"
+SVM,"C=100, kernel=linear",0.9903,0.9874,0.9933,0.9903,1.661,"C=100, kernel=linear"
+随机森林,"n_estimators=50, max_depth=None",0.9907,0.9966,0.9846,0.9906,0.504,"n_estimators=50, max_depth=None"
+随机森林,"n_estimators=50, max_depth=10",0.9276,0.8801,0.99,0.9318,0.158,"n_estimators=50, max_depth=10"
+随机森林,"n_estimators=50, max_depth=20",0.9673,0.9447,0.9927,0.9681,0.193,"n_estimators=50, max_depth=20"
+随机森林,"n_estimators=100, max_depth=None",0.991,0.9973,0.9846,0.9909,0.995,"n_estimators=100, max_depth=None"
+随机森林,"n_estimators=100, max_depth=10",0.9376,0.8946,0.992,0.9408,0.273,"n_estimators=100, max_depth=10"
+随机森林,"n_estimators=100, max_depth=20",0.9623,0.9331,0.996,0.9635,0.38,"n_estimators=100, max_depth=20"
+随机森林,"n_estimators=200, max_depth=None",0.99,0.9953,0.9846,0.9899,2.69,"n_estimators=200, max_depth=None"
+随机森林,"n_estimators=200, max_depth=10",0.9373,0.8927,0.994,0.9406,0.875,"n_estimators=200, max_depth=10"
+随机森林,"n_estimators=200, max_depth=20",0.9666,0.9424,0.994,0.9675,1.212,"n_estimators=200, max_depth=20"
